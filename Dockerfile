@@ -13,7 +13,7 @@ RUN cd server && npm install & cd ..
 RUN cd client && npm install
 
 # Expose port
-EXPOSE 8080
+EXPOSE 5000
 EXPOSE 3000
 
 # Start client and server apps
